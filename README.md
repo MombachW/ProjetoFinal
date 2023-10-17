@@ -30,26 +30,27 @@ rails generate controller ou rails g controller: Comando para criar uma tela de 
 rails destroy controller ou rails d controller: Comando para  excluir um controlador do projeto, apagando todos os arquivos, dados, rotas, etc. vinculados ao controlador.
 
 #### Tasks
-rails db:create / db:create: Comando para  criar  um novo banco de dados vazio.
-
-rails db:drop / db:drop: Comando para  excluir  um banco de dados completo.
 
 rails db:migrate / db:migrate: Comando para executar a  migração  das atualizações pendentes no banco de dados.
 
+rails db:create / db:create: Comando para  criar  um novo banco de dados vazio.
+
 rails db:rollback / db:rollback: Comando para  voltar para a última migração  realizada no banco de dados.
+
+rails db:drop / db:drop: Comando para  excluir  um banco de dados completo.
 
 ### Git
 
-git init: Comando para  iniciar  um repositório no Git.
-
 git clone: Comando para  clonar  um repositório Git existente na máquina local.
 
-git add: Comando para  adicionar  arquivos ao Git.
+git init: Comando para  iniciar  um repositório no Git.
 
 git commit: Comando para  atualizar  as mudanças feitas nos arquivos no Git.
 
-git branch: Comando para  listar  as ramificações/branches/mudanças existentes nos arquivos no Git.
+git add: Comando para  adicionar  arquivos ao Git.
 
 git pull: Comando para  atualizar a branch  remotamente.
+
+git branch: Comando para  listar  as ramificações/branches/mudanças existentes nos arquivos no Git.
 
 git push: Comando para  enviar as atualizações  para o repositório/projeto remoto.
