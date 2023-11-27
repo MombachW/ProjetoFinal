@@ -1,0 +1,18 @@
+
+
+<table class="highlight responsive-table
+striped">
+
+
+<p><%=link_to 'English', '/?locale=en' %> </p>
+
+<p><%=link_to 'Portugues', root_path(locale:"pt-BR") %> </p>
+
+<% alert_msg = Time.now.hour < 12 ? "Bom dia" : Time.now < 18 ? "Boa Tarde" : "Boa Noite" %>
+
+<script>
+
+$.notify("<%= alert_msg %>", "success");
+console.log("teste")
+
+</script>
