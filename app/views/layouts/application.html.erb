@@ -26,17 +26,24 @@
     <div class="col l4 offset-l2 s12">
       <h5 class="white-text">Links</h5>
       <ul>
-        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+        <li><a class="grey-text text-lighten-3" href="/registers">Registros</a></li>
+
       </ul>
     </div>
   </div>
 </div>
 </footer>
-<h2>cookie <%=cookies[:teste_C] %></h2>
-<h2>session <%=session[:teste_S] %></h2>
+
     <%= yield %>
+
+  <style>
+  .page-footer {
+    background-color: #5cacc4;
+}
+.grey-text text-lighten-3 {
+    color: #000000;
+}
+  </style>
+
   </body>
 </html>
