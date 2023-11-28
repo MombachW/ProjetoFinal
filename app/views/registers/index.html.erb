@@ -1,13 +1,13 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Registers</h1>
+<h1>Registros</h1>
 
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Number</th>
-      <th>City</th>
+      <th>Nome</th>
+      <th>Numero</th>
+      <th>Cidade</th>
       <th>Cpf</th>
       <th colspan="3"></th>
     </tr>
@@ -20,9 +20,9 @@
         <td><%= register.number %></td>
         <td><%= register.city %></td>
         <td><%= register.cpf %></td>
-        <td><%= link_to 'Show', register %></td>
-        <td><%= link_to 'Edit', edit_register_path(register) %></td>
-        <td><%= link_to 'Destroy', register, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Mostrar', register %></td>
+        <td><%= link_to 'Editar', edit_register_path(register) %></td>
+        <td><%= link_to 'Apagar', register, method: :delete, data: { confirm: 'Você tem certeza?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -30,4 +30,4 @@
 
 <br>
 
-<%= link_to 'New Register', new_register_path %>
+<%= link_to 'Novo registro', new_register_path %>
